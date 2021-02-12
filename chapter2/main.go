@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/rajcspsg/mastering_go/chapter2/examples"
 	"runtime"
+
+	"github.com/rajcspsg/mastering_go/chapter2/examples"
 )
 
 func main() {
@@ -11,4 +12,5 @@ func main() {
 	//examples.UsingMapWithoutPointersDemo()
 	examples.SplittingMapDemo()
 	examples.PrintStats(mem)
+
 }

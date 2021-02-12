@@ -24,3 +24,7 @@ func CustomLogDemo() {
 	iLog.Println("Hello there!")
 	iLog.Println("Another log entry!")
 }
+
+func NewFunction() {
+	fmt.Println("New Function called")
+}
